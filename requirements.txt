@@ -1,0 +1,12 @@
+# use python 3.10.11 to avoid compatibility issues with scikit-surprise
+Faker==40.4.0
+numpy==1.26.4
+pandas==2.3.3
+PyMySQL==1.1.2
+scikit-learn==1.7.2
+scikit-surprise==1.1.4
+SQLAlchemy==2.0.46
+python-dotenv==1.2.2
+fastapi==0.135.1
+redis==7.3.0
+uvicorn==0.46.0
