@@ -20,12 +20,12 @@ A hybrid recommendation system built with React, FastAPI, and MariaDB, featuring
 
 Make sure you have the following installed before proceeding:
 
-|   Tool    |   Version   | Download |
-|-----------|-------------|----------|
-|   Python  |  3.9/3.10   | https://python.org |
-|  Node.js  |     18+     | https://nodejs.org |
+|   Tool    |   Version   |       Download      |
+|-----------|-------------|---------------------|
+|   Python  |   3.10.11   | https://python.org  |
+|  Node.js  |     18+     | https://nodejs.org  |
 |  MariaDB  |    10.6+    | https://mariadb.org |
-|    Git    | https://git-scm.com |
+|    Git    | ----------- | https://git-scm.com |
 
 ---
 
@@ -119,7 +119,7 @@ Open `.env` and fill in your database credentials and configuration (see [Enviro
 
 **5. Train the recommendation models**
 
-The models are trained on startup via `recommender_engine.py`, but you can also run them individually:
+The models are trained on startup when FastAPI launches via `main.py`, `recommender_engine.py` is the model loader class called during startup, but you can also run them individually:
 ```bash
 python global_recommender.py    # Train CBF model
 python user_recommender.py      # Train SVD/CF model
