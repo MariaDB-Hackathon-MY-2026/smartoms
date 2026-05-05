@@ -2,7 +2,8 @@
 
 A hybrid recommendation system built with React, FastAPI, and MariaDB, featuring Content-Based Filtering (CBF) and Collaborative Filtering (CF) via SVD.
 
-A demo video can be found in the following Youtube link: [https://youtu.be/9h9dhygZFfo](https://youtu.be/9h9dhygZFfo)
+Team name: Sleeping Bag 
+University: HELP university
 
 ---
 
